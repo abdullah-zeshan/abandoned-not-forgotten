@@ -32,7 +32,7 @@ section{position:relative;min-height:100svh;padding:16vh 6vw 12vh}
 .hd{font-weight:900;font-size:clamp(4.5rem,18vw,16rem);line-height:.82;letter-spacing:-.05em;margin:0}
 #home{display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:9vh}
 #home small{font:500 1rem 'Montserrat',sans-serif;color:var(--amber);margin-bottom:.8rem}
-#home h1{font-weight:900;font-size:clamp(3rem,9.5vw,9rem);line-height:.88;letter-spacing:-.045em;margin:0;max-width:10ch;text-shadow:0 4px 40px #000}
+#home h1{font-weight:900;font-size:clamp(2.8rem,7.2vw,7.5rem);line-height:.9;letter-spacing:-.045em;margin:0;max-width:12ch;text-shadow:0 4px 40px #000}
 .cue{position:absolute;right:6vw;bottom:9vh;display:flex;flex-direction:column;align-items:center;gap:.6rem;font:500 .8rem 'Montserrat',sans-serif;color:var(--dim)}
 .cue i{display:block;width:1px;height:70px;background:linear-gradient(var(--amber),transparent);animation:cue 2s infinite}
 @keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
@@ -204,7 +204,7 @@ S.add(moon,mars,sun,new T.AmbientLight(0x1a2036,.6),stars(2500,1,.55),stars(500,
 // ---- camera, scroll, nav
 let P,tgt='hero',warp=0,t0=0,lastY=0;const look=new T.Vector3(),mx={x:0,y:0},tp=new T.Vector3(),tl=new T.Vector3(),v3=new T.Vector3();
 const pl=k=>k==='moon'?moon:mars;
-function layout(){const a=innerWidth/innerHeight;P=a<.9?{m:[0,2.6,0],s:[0,-2.7,-1.5],z:12.5}:{m:[-3.7,0,0],s:[4.3,-.3,-3],z:9};moon.position.set(...P.m);mars.position.set(...P.s);R.setSize(innerWidth,innerHeight,false);C.aspect=a;C.updateProjectionMatrix()}
+function layout(){const a=innerWidth/innerHeight;P=a<.9?{m:[0,2.6,0],s:[0,-2.7,-1.5],z:12.5}:{m:[-3.7,.7,0],s:[4.3,.4,-3],z:9};moon.position.set(...P.m);mars.position.set(...P.s);R.setSize(innerWidth,innerHeight,false);C.aspect=a;C.updateProjectionMatrix()}
 addEventListener('resize',layout);layout();C.position.set(0,0,40);
 function camFor(k){if(k==='moon'||k==='mars'){const p=pl(k),o=innerWidth<innerHeight*.9?0:(k==='moon'?2.6:-2.2),z=innerWidth<innerHeight*.9?p.r*3.4:6;return[p.position.x+o,p.position.y,p.position.z+z,p.position.x+o,p.position.y,p.position.z]}return[0,0,P.z,0,0,0]}
 document.querySelectorAll('[data-cam]').forEach(el=>new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)tgt=el.dataset.cam}),{threshold:.45}).observe(el));
