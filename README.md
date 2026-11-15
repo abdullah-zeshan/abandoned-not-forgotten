@@ -12,7 +12,7 @@
 ![three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-ffb454?style=for-the-badge)
 
-**[▶ Open the live site](YOUR-LIVE-LINK)**
+**[▶ Open the live site](https://astervex.vercel.app/)**
 
 </div>
 
