@@ -67,7 +67,7 @@ npx serve .
 
 ## 👤 Made by
 
-**Abdullah Zeshan**, a solo build.
+**Sufyan Hashmi, Mahd Saqlan, Syed Raza, Rao Ali, Abdul Rehman and Abdullah Zeshan.**
 [LinkedIn](https://linkedin.com/in/abdullah-zeshan-4706a02a3) · [GitHub](https://github.com/abdullah-zeshan)
 
 ## 🙏 Credits

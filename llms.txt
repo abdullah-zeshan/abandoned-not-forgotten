@@ -1,0 +1,25 @@
+# Abandoned, not forgotten
+
+> An interactive story website about the machines NASA left behind on the Moon and Mars. It tells three stories (ALSEP, the Apollo lunar module descent stage and the Sojourner rover) for school-age space fans and anyone curious about NASA's past missions. Made by a team of six for the NASA Space Apps Challenge 2026.
+
+## Main page
+
+- [Abandoned, not forgotten](https://astervex.vercel.app/): the full story site, with real 3D Moon and Mars, three full-screen stories, a map of landing sites and a photo gallery.
+
+## What the site covers
+
+- ALSEP (Apollo Lunar Surface Experiments Package): robot science stations on the Moon that recorded thousands of moonquakes until NASA switched them off on 30 September 1977.
+- Apollo Lunar Module descent stage: the Apollo 12 lander's lower half, which landed within about 180 m of the Surveyor 3 probe and was left in the Ocean of Storms.
+- Sojourner: the first rover driven on Mars (1997). Planned for about a week, it worked for 83 sols.
+- Ten more abandoned machines (Lunar Roving Vehicles, Surveyor, Spirit and Opportunity, Viking, Phoenix and InSight, Ingenuity, Dawn, NEAR Shoemaker, Pioneer, Kepler), each linking to NASA.
+
+## Sources
+
+- NASA Space Science Data Coordinated Archive (NSSDCA): https://nssdc.gsfc.nasa.gov/
+- NASA mission pages: https://science.nasa.gov/
+- Code: https://github.com/abdullah-zeshan/abandoned-not-forgotten
+
+## Notes
+
+- Facts come from NASA mission records. Map positions are approximate.
+- Background videos are stock footage, not mission footage. This is an independent project, not endorsed by NASA.
